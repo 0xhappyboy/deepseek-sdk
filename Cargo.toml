@@ -10,3 +10,7 @@ readme = "README.md"
 repository = "https://github.com/0xhappyboy/deepseek-sdk"
 
 [dependencies]
+reqwest = { version = "0.11", features = ["json"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+tokio = { version = "1.0", features = ["full"] }
